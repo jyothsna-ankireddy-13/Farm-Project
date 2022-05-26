@@ -26,8 +26,7 @@ const LayoutBar = ({ children, title }: LayoutProps) => {
       </Head>
       <Sider theme="dark" className={style.sider}>
         <div style={{ padding: 20 }} className={style.logoname}>
-          <img src="/images/logo.png" />
-          ImpulsiveWeb
+          POULTRY FARM
         </div>
         <Menu
           theme="dark"
