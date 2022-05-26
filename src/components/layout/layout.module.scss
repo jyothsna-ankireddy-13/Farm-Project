@@ -1,0 +1,53 @@
+.sider {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  height: 100vh;
+  .logoname {
+    color: #f1f3f5;
+    font-size: 20px;
+    img {
+      padding-right: 10px;
+    }
+  }
+  ul {
+    padding-inline-start: 10px;
+    ba li {
+      margin-bottom: 25px;
+      font-size: 17px;
+      color: white;
+      list-style: none;
+      .icon {
+        padding-right: 5px;
+        font-size: 25px;
+      }
+    }
+    li:hover {
+      color: #1890ff;
+    }
+  }
+}
+
+.image {
+  cursor: pointer;
+  width: 150px;
+}
+
+.layoutcontent {
+  width: 100%;
+  margin-left: 200px;
+  position: relative;
+  height: 90%;
+  .layoutheader {
+    height: 60px;
+    width: 90%;
+    margin-left: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .layoutdata {
+    padding-top: 60px;
+  }
+}

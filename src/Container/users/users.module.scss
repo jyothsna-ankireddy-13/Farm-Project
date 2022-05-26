@@ -1,0 +1,48 @@
+.tabs {
+  display: flex;
+
+  padding-bottom: 10px;
+  .tab {
+    display: flex;
+    justify-content: space-between;
+    .right {
+      overflow: hidden;
+      color: white;
+      font-size: 25px;
+      float: right;
+      .setting {
+        background-color: lightgreen;
+        padding: 8px;
+      }
+      .setting1 {
+        background-color: green;
+        padding: 8px;
+      }
+      .setting2 {
+        background-color: grey;
+        padding: 8px;
+      }
+    }
+  }
+}
+.table {
+  li {
+    &:nth-child(1) {
+      width: 10%;
+    }
+
+    &:nth-child(2) {
+      width: 15%;
+    }
+
+    &:nth-child(3) {
+      width: 18%;
+    }
+    &:nth-child(4) {
+      width: 19%;
+    }
+    &:nth-child(5) {
+      width: 20%;
+    }
+  }
+}
